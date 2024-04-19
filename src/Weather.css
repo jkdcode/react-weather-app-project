@@ -1,8 +1,14 @@
+footer {
+  text-align: center;
+}
+
 .Container {
   padding: 50px;
+  max-width: 1000px;
 }
 
 .Weather {
+  background: #dce5f4;
   border: 1px solid #ccdae4;
 }
 
