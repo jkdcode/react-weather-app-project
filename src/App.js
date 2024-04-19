@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.css";
-
 import "./App.css";
+import Weather from "./Weather.js";
 
 export default function App() {
   return (
     <div className="App">
       <div className="Container">
-        <h1>Weather app</h1>
+        <Weather />
         <footer>
           <a
             href="https://julie-makes-stuff.netlify.app/"
