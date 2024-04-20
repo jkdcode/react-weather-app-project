@@ -8,14 +8,15 @@ export default function App() {
       <div className="Container">
         <Weather />
         <footer>
+          This project was coded by{" "}
           <a
             href="https://julie-makes-stuff.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            Julie Makes Stuff
-          </a>{" "}
-          |{" "}
+            Julie Didriksen
+          </a>
+          . It is open-sourced on{" "}
           <a
             href="https://github.com/jkdcode/react-weather-app-project"
             target="_blank"
@@ -23,7 +24,7 @@ export default function App() {
           >
             GitHub
           </a>{" "}
-          |{" "}
+          and hosted on{" "}
           <a
             href="https://julies-react-weather-app.netlify.app/"
             target="_blank"
@@ -31,6 +32,7 @@ export default function App() {
           >
             Netlify
           </a>
+          .
         </footer>
       </div>
     </div>

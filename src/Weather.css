@@ -1,15 +1,59 @@
 footer {
   text-align: center;
+  font-size: 13px;
 }
 
-.Container {
-  padding: 50px;
-  max-width: 1000px;
+h1 {
+  color: #5e6c77;
+  font-size: 40px;
+  font-weight: 400px;
+  margin: 20px 0 10px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #5e6c77;
+}
+
+img {
+  width: 70px;
+  height: 70px;
 }
 
 .Weather {
-  background: #dce5f4;
-  border: 1px solid #ccdae4;
+  background: #fff;
+  border-radius: 15px;
+  padding: 16px;
+  margin: 30px 0 10px auto;
+}
+
+.weather-temperature-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.weather-details {
+  margin-top: 10px;
+}
+
+.temperature {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1;
+  margin-right: -4px;
+}
+
+.unit {
+  font-size: 20px;
+  line-height: 1;
+  align-self: flex-start;
+  margin-top: 10px;
 }
 
 /* #CCDAE4
