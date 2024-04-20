@@ -25,6 +25,10 @@ img {
   height: 70px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .Weather {
   background: #fff;
   border-radius: 15px;
@@ -36,6 +40,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.WeatherTemperatureUnit {
+  display: flex;
+  align-items: flex-start;
 }
 
 .weather-temperature-info {
@@ -54,12 +63,10 @@ img {
   font-weight: 400;
   font-size: 60px;
   line-height: 1;
-  margin-right: -4px;
 }
 
 .unit {
   font-size: 20px;
   line-height: 1;
-  align-self: flex-start;
-  margin-top: 10px;
+  margin-top: 8px;
 }
