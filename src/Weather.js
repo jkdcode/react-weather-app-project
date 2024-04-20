@@ -23,29 +23,25 @@ export default function Weather() {
           </div>
         </div>
       </form>
-      <h1>Cayman Islands</h1>
-      <ul>
-        <li>Friday 20:00</li>
-        <li>Mostly cloudy</li>
-      </ul>
-      <div className="row weather-details">
-        <div className="col-6">
-          <div className="weather-temperature-info">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="Mostly cloudy"
-            />
-            <span className="temperature">6</span>
-            <span className="unit">°C</span>
-          </div>
+      <h1>Longyearbyen</h1>
+      <div className="weather-top-section">
+        <ul className="weather-summary">
+          <li>Friday 20:00</li>
+          <li>Mostly cloudy</li>
+        </ul>
+        <div className="weather-temperature-info">
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+            alt="Mostly cloudy"
+          />
+          <span className="temperature">-30</span>
+          <span className="unit">°C</span>
         </div>
-        <div className="col-6">
-          <ul>
-            <li>Precipitation: 1%</li>
-            <li>Humidity: 58%</li>
-            <li>Wind: 2 m/s</li>
-          </ul>
-        </div>
+        <ul className="weather-details">
+          <li>Precipitation: 1%</li>
+          <li>Humidity: 58%</li>
+          <li>Wind: 2 m/s</li>
+        </ul>
       </div>
     </div>
   );

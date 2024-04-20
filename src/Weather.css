@@ -32,6 +32,12 @@ img {
   margin: 30px 0 10px auto;
 }
 
+.weather-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .weather-temperature-info {
   display: flex;
   align-items: center;
@@ -39,7 +45,9 @@ img {
 }
 
 .weather-details {
+  text-align: right;
   margin-top: 10px;
+  font-size: 12px;
 }
 
 .temperature {
@@ -55,8 +63,3 @@ img {
   align-self: flex-start;
   margin-top: 10px;
 }
-
-/* #CCDAE4
-#5E6C77
-#242E35
-#C5B478 */
