@@ -22,6 +22,7 @@ export default function Weather(props) {
         humidity: response.data.main.humidity,
         iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
         time: "Wednesday 20:00",
+        feelsLike: response.data.main.feels_like,
       });
     }
 
@@ -66,6 +67,7 @@ export default function Weather(props) {
             <span className="unit">°C</span>
           </div>
           <ul className="weather-details">
+            <li>Feels like: {Math.round(weatherData.feelsLike)}°C</li>
             <li>Humidity: {weatherData.humidity}%</li>
             <li>Wind: {weatherData.wind} m/s</li>
           </ul>
