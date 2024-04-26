@@ -8,6 +8,11 @@
   margin-bottom: 5px;
 }
 
+.WeatherForecast-temperature-max,
+.WeatherForecast-temperature-min {
+  font-size: 15px;
+}
+
 .WeatherForecast-temperature-max {
   font-weight: bold;
   margin-right: 5px;
